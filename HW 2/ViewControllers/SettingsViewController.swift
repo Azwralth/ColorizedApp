@@ -50,7 +50,7 @@ final class SettingsViewController: UIViewController {
         guard let redTF = redTextField.text, let greenTF = greenTextField.text, let blueTF = blueTextField.text, !redTF.isEmpty, !greenTF.isEmpty, !blueTF.isEmpty else {
             showAlert(
                 withTitle: "Text field is empty",
-                andMessage: "Please, enter number from 0 to 1, rounded to the nearest hundredth"
+                andMessage: "Please enter a number from 0 to 1 rounded to two decimal places."
             )
             return
         }
@@ -123,7 +123,7 @@ extension SettingsViewController: UITextFieldDelegate {
         guard let text = textField.text, let value = Float(text) else {
             showAlert(
                 withTitle: "Wrong format",
-                andMessage: "Please, enter number from 0 to 1, rounded to the nearest hundredth"
+                andMessage: "Please enter a number from 0 to 1 rounded to two decimal places."
             ) {
                 textField.text = ""
             }
@@ -146,7 +146,7 @@ extension SettingsViewController: UITextFieldDelegate {
         } else {
             showAlert(
                 withTitle: "Wrong format",
-                andMessage: "Please, enter number from 0 to 1, rounded to the nearest hundredth"
+                andMessage: "Please enter a number from 0 to 1 rounded to two decimal places."
             ) {
                 textField.text = ""
             }
