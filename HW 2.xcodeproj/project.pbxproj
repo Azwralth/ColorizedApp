@@ -49,6 +49,8 @@
 		76D9B81D2B866B4500C0ADA4 /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
+				A86938CA20D027C300E87976 /* Main.storyboard */,
+				A86938CF20D027C400E87976 /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -67,8 +69,6 @@
 			children = (
 				A86938C520D027C300E87976 /* HW 2 */,
 				A86938CD20D027C400E87976 /* Assets.xcassets */,
-				A86938CA20D027C300E87976 /* Main.storyboard */,
-				A86938CF20D027C400E87976 /* LaunchScreen.storyboard */,
 				A86938C420D027C300E87976 /* Products */,
 			);
 			sourceTree = "<group>";

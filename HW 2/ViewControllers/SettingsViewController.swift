@@ -54,7 +54,6 @@ final class SettingsViewController: UIViewController {
             )
             return
         }
-        
         delegate?.updateBackgroundColor(colorView.backgroundColor ?? .white)
         dismiss(animated: true)
     }
